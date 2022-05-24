@@ -1,0 +1,23 @@
+{
+    "name": "@sample/sample-test",
+    "version": "0.1.0",
+    "main": "dist/index.ts",
+    "types": "dist/index.d.ts",
+    "files": [
+        "README.md",
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf .turbo dist node_modules",
+        "lint": "eslint .",
+        "lint:fix": "npm run lint -- --fix"
+    },
+    "devDependencies": {
+        "@sample/eslint-config": "*",
+        "@sample/tsconfig": "*",
+        "eslint": "^8.16.0",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.6.4"
+    }
+}

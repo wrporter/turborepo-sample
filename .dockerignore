@@ -1,0 +1,9 @@
+*
+!.git
+!.changeset
+!packages
+packages/**/.turbo
+packages/**/dist
+!package.json
+!package-lock.json
+!turbo.json

@@ -1,0 +1,11 @@
+{
+  "name": "@sample/tsconfig",
+  "version": "0.1.0",
+  "files": [
+    "README.md",
+    "api-tests.json",
+    "base.json",
+    "e2e-tests-cypress.json",
+    "remix-express-server.json"
+  ]
+}
