@@ -1,5 +1,7 @@
 # Turborepo Sample
 
+**EDIT:** Fixed by copying over all the `package.json` files from the underlying packages. Docker does not have good glob pattern support to do this, so we need to use multi-stage builds to accomplish caching.
+
 This project showcases an issue with Turborepo and npm workspaces being built in Docker.
 
 It seems that some dependencies are required to be installed at the root of the monorepo, when they are only required by specific packages.

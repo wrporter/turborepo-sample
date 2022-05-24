@@ -4,7 +4,7 @@
 !packages
 packages/**/.turbo
 packages/**/dist
-packages/**/node_moduels
+packages/**/node_modules
 !.npmrc
 !package.json
 !package-lock.json
